@@ -39,7 +39,7 @@ if __name__ == "__main__":
     usuario1 = CrearUsuario("Juan", "Perez", 25)
     carro.agregar_usuario(usuario1)
 
-    bar1 = Bar("Bar 1", "Dirección 1", "Ciudad 1")
+     cantina1= cantina("cantina 1", "Dirección 1", "Ciudad 1")
     carro.agregar_bar(bar1)
 
     # Muestra el contenido del carro
