@@ -3,7 +3,7 @@ class Bebida:
         self.nombre = nombre
         self.precio = precio
 
-class Bar:
+class cantina:
     def __init__(self):
         self.enlistado = []
 
@@ -17,12 +17,12 @@ class Bar:
             print(f"Bebida: {bebida_obj.nombre}, Precio: {bebida_obj.precio}")
 
 if __name__ == "__main__":
-    bar = Bar()
+    cantina = cantina()
 
 
-    bar.enlistar("Cerveza", 5.0)
-    bar.enlistar("Vino tinto", 7.0)
-    bar.enlistar("Refresco", 2.0)
+    cantina.enlistar("Cerveza", 5.0)
+    cantina.enlistar("Vino tinto", 7.0)
+    cantina.enlistar("Refresco", 2.0)
 
   
-    bar.mostrar_enlistado()
+    cantina.mostrar_enlistado()
