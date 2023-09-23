@@ -20,7 +20,7 @@ class Usuario:
         if self.es_mayor_de_edad():
             print("El usuario de nombre", self.nombre, "y de apellido", self.apellido, "ha sido creado")
         else:
-            print(".")
+            print("no se pudo crear el usuario por viejo HP.")
 
 
 def main():
