@@ -14,13 +14,13 @@ class Usuario:
             print("Apellido:", self.apellido)
             print("Edad:", self.edad)
         else:
-            print("El usuario", self.nombre, "no puede tener un registro ya que no cumple con la edad mínima de 18 años")
+            print("El usuario", self.nombre, "no puede tener un registro ya que no cumple los 18 ve y toma yogurt")
 
     def mostrar_usuario_creado(self):
         if self.es_mayor_de_edad():
             print("El usuario de nombre", self.nombre, "y de apellido", self.apellido, "ha sido creado")
         else:
-            print("No se pudo crear el usuario debido a la edad insuficiente.")
+            print(".")
 
 
 def main():
