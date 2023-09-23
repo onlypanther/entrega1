@@ -40,7 +40,7 @@ if __name__ == "__main__":
     carro.agregar_usuario(usuario1)
 
      cantina1= cantina("cantina 1", "Dirección 1", "Ciudad 1")
-    carro.agregar_bar(bar1)
+    carro.agregar_bar(cantina1)
 
-    # Muestra el contenido del carro
+ 
     carro.mostrar_carro()
